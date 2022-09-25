@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple todo application</title>
+  </head>
+  <body>
+    <div id="container">
+        <div class="controls" id="controlsdiv">
+            <h1>My Awesome TODO</h1>
+            <input type="text" id="input"><br>
+            <button type="button" id="add">Add TODO</button>
+            <button type="button" id="remove">Remove Done TODO</button>
+        </div>
+        <ul id="list">
+            <li class="mycheck">
+                <input type="checkbox" class="check">
+                <label for="check">first todo </label>
+            </li>
+            <li class="mycheck">
+                <input type="checkbox" class="check" checked>
+                <label>second todo</label>
+            </li>
+            <li class="mycheck">
+              <input type="checkbox" class="check" checked>
+              <label>third todo</label>
+          </li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
